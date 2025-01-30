@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nature's platter</title>
+    <link rel="shortcut icon" href="assets/responsive logo.PNG" type="image/x-icon">
+
+    <!-- Fontawesome setup -->
+    <script src="https://kit.fontawesome.com/df36df53d1.js" crossorigin="anonymous"></script>
+
+    <!-- Tailwind CSS setup with daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Customize Tailwind CSS -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    
+    <!-- google font setup -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+        .poppins{
+            font-family: "Poppins", serif;
+        }
+        .sora{
+            font-family: "Sora", serif;
+        }
+    </style>
+</head>
+<body class="sora">
+
+    <!-- heder section -->
+    <header class="w-screen lg:w-[80vw] mx-auto ">
+
+        <!-- navbar section -->
+        <div class="navbar bg-base-100 border-b-2 border-[#179800] lg:border-none">
+            <div class="navbar-start">
+              <img src="assets/logo-header.png" class="hidden lg:inline" alt="">
+              <img src="assets/responsive logo.PNG" class="lg:hidden w-12" alt="">
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal mr-16 text-[#111111] text-lg">
+                <li><a>Product</a></li>
+                <li><a>Services</a></li>
+                <li><a>Contact us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+                <i class="fa-solid fa-magnifying-glass cursor-pointer hidden lg:inline"></i>
+                <i class="fa-solid fa-cart-shopping mx-6 cursor-pointer hidden lg:inline"></i>
+              <a class="px-7 py-2 cursor-pointer border-[#179800] border-[1px] rounded-lg text-xl text-[#111111] hidden lg:inline">Login</a>
+              <a class="text-xl cursor-pointer text-white bg-[#179800] px-7 py-2 rounded-lg border-[#179800] border-[1px] ml-3 hidden lg:inline">Register</a>
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6"
+                      fill="none"
+                      viewBox="0 4 22 20"
+                      stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h16m-16 6h16" />
+                    </svg>
+                  </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Item 1</a></li>
+                  <li> <a>Parent</a></li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main section -->
+    <main>
+
+    </main>
+
+    <!-- footer section -->
+    <footer>
+
+    </footer>
+</body>
+</html>
