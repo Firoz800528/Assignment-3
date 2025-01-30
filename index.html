@@ -42,10 +42,10 @@
 <body class="sora">
 
     <!-- heder section -->
-    <header class="w-full lg:w-[80vw] mx-auto">
+    <header class=" bg-[#F8F6F3]">
 
         <!-- navbar section -->
-        <div class="navbar border-b-2 border-[#179800] lg:border-none">
+        <div class="navbar border-b-[1px] border-[#179800] lg:border-none w-full lg:w-[80vw] mx-auto">
             <div class="navbar-start">
               <img src="assets/logo-header.png" class="hidden lg:inline" alt="">
               <img src="assets/responsive logo.PNG" class="lg:hidden w-12" alt="">
@@ -66,9 +66,9 @@
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-6 text-[#179800]"
+                      class="h-7 text-[#179800]"
                       fill="none"
-                      viewBox="0 4 22 20"
+                      viewBox="0 4 22 15"
                       stroke="currentColor">
                       <path
                         stroke-linecap="round"
@@ -79,7 +79,7 @@
                   </div>
                 <ul
                   tabindex="0"
-                  class="menu menu-xs dropdown-content bg-base-100 rounded-box z-[1] mt-3 absolute right-10 p-2 shadow">
+                  class="menu menu-xs dropdown-content bg-base-100 rounded-box z-[1] mt-3 absolute p-2 shadow">
                   <li><a>Item 1</a></li>
                   <li> <a>Parent</a></li>
                   <li><a>Item 3</a></li>
@@ -87,11 +87,167 @@
               </div>
             </div>
         </div>
+
+        <!-- banner section -->
+         <div class="w-[90vw] lg:w-[60vw] mx-auto mt-[5vw]">
+            <h1 class="text-[32px] lg:text-[55px] text-[#111111] font-semibold text-center">Freshness <span class="text-[#179800]">You Can <br> Count </span> On, Prices You’ll Love!</h1>
+            <p class="text-center text-[#403F3F] text-base lg:text-xl">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+            <img class="w-full lg:w-[60vw]" src="assets/hero-vegetables.png" alt="">
+         </div>
     </header>
 
     <!-- main section -->
-    <main class="">
+    <main>
 
+        <!-- Services section -->
+        <section class="mt-[8vw] mb-[8vw] w-[90vw] lg:w-[80vw] mx-auto">
+        <h1 class="text-2xl lg:text-3xl text-[#179800] font-semibold mb-[3vw]">Services</h1>
+            <div class="card flex lg:flex-row gap-6">
+                <div class="card bg-[#EFEBE3]">
+                    <figure>
+                        <img class="mt-8"
+                        src="assets/service.png"
+                        alt=""/>
+                    </figure>
+                    <div class="card-body text-center">
+                        <h2 class="text-2xl font-semibold text-[#111111] mt-[2vw] mb-[0.75vw]">24/7 Services </h2>
+                        <p class="text-xl text-[#545350] font-[300] mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                </div>
+                <div class="card bg-[#EFEBE3]">
+                    <figure>
+                        <img class="mt-8"
+                        src="assets/delivery.png"
+                        alt=""/>
+                    </figure>
+                    <div class="card-body text-center">
+                        <h2 class="text-2xl font-semibold text-[#111111] mt-[2vw] mb-[0.75vw]">Fast Delivery</h2>
+                        <p class="text-xl text-[#545350] font-[300] mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                </div>
+                <div class="card bg-[#EFEBE3]">
+                    <figure>
+                        <img class="mt-8"
+                        src="assets/healthy.png"
+                        alt=""/>
+                    </figure>
+                    <div class="card-body text-center">
+                        <h2 class="text-2xl font-semibold text-[#111111] mt-[2vw] mb-[0.75vw]">Healthy Products </h2>
+                        <p class="text-xl text-[#545350] font-[300] mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Popular Products section -->
+
+        <section class="bg-[#EFEBE3]">
+        <div class="mt-[8vw] mb-[8vw] w-[90vw] lg:w-[80vw] mx-auto">
+            <h1 class="text-2xl lg:text-3xl text-[#179800] font-semibold pt-[8vw] mb-[3vw]">Popular Products</h1>
+            <div class="flex flex-col lg:flex-row gap-6 justify-between pb-[8vw]">
+                <div class="rounded-lg bg-gradient-to-br from-[#53DB3A] to-[#E9FAE6] flex flex-col items-end justify-between w-full lg:w-1/3">
+                    <div class="ml-10 mr-28 mt-5 space-y-5">
+                        <h1 class="text-2xl lg:text-3xl text-white font-bold">30% off</h1>
+                        <p class="text-[#2F502A] font-[500]">Discover a world of treats, toys and essentials handpicked for</p>
+                        <button class="text-black rounded-lg px-6 py-2 bg-white">Buy Now</button>
+                    </div>
+                    <img class="w-[70%] h-[50%]" src="assets/vegetable-offer.png" alt="">
+                </div>
+                <div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="flex items-center bg-[#FFFFFF] rounded-lg">
+                        <div>
+                            <img class="w-[80px] rounded-3xl p-2" src="assets/onion.PNG" alt="">
+                        </div>
+                        <div class="lg:mx-2">
+                            <i class="fa-solid fa-star text-yellow-500"> </i> 4.5
+                            <p class="lg:text-lg font-[500]">Onion 1 KG</p>
+                            <p class="font-[500]">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center bg-[#FFFFFF] rounded-lg">
+                        <div>
+                            <img class="w-[80px] rounded-3xl p-2" src="assets/onion.PNG" alt="">
+                        </div>
+                        <div class="lg:mx-2">
+                            <i class="fa-solid fa-star text-yellow-500"> </i> 4.5
+                            <p class="lg:text-lg font-[500]">Onion 1 KG</p>
+                            <p class="font-[500]">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center bg-[#FFFFFF] rounded-lg">
+                        <div>
+                            <img class="w-[80px] rounded-3xl p-2" src="assets/onion.PNG" alt="">
+                        </div>
+                        <div class="lg:mx-2">
+                            <i class="fa-solid fa-star text-yellow-500"> </i> 4.5
+                            <p class="lg:text-lg font-[500]">Onion 1 KG</p>
+                            <p class="font-[500]">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center bg-[#FFFFFF] rounded-lg">
+                        <div>
+                            <img class="w-[80px] rounded-3xl p-2" src="assets/onion.PNG" alt="">
+                        </div>
+                        <div class="lg:mx-2">
+                            <i class="fa-solid fa-star text-yellow-500"> </i> 4.5
+                            <p class="lg:text-lg font-[500]">Onion 1 KG</p>
+                            <p class="font-[500]">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center bg-[#FFFFFF] rounded-lg">
+                        <div>
+                            <img class="w-[80px] rounded-3xl p-2" src="assets/onion.PNG" alt="">
+                        </div>
+                        <div class="lg:mx-2">
+                            <i class="fa-solid fa-star text-yellow-500"> </i> 4.5
+                            <p class="lg:text-lg font-[500]">Onion 1 KG</p>
+                            <p class="font-[500]">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center bg-[#FFFFFF] rounded-lg">
+                        <div>
+                            <img class="w-[80px] rounded-3xl p-2" src="assets/onion.PNG" alt="">
+                        </div>
+                        <div class="lg:mx-2">
+                            <i class="fa-solid fa-star text-yellow-500"> </i> 4.5
+                            <p class="lg:text-lg font-[500]">Onion 1 KG</p>
+                            <p class="font-[500]">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center bg-[#FFFFFF] rounded-lg">
+                        <div>
+                            <img class="w-[80px] rounded-3xl p-2" src="assets/onion.PNG" alt="">
+                        </div>
+                        <div class="lg:mx-2">
+                            <i class="fa-solid fa-star text-yellow-500"> </i> 4.5
+                            <p class="lg:text-lg font-[500]">Onion 1 KG</p>
+                            <p class="font-[500]">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center bg-[#FFFFFF] rounded-lg">
+                        <div>
+                            <img class="w-[80px] rounded-3xl p-2" src="assets/onion.PNG" alt="">
+                        </div>
+                        <div class="lg:mx-2">
+                            <i class="fa-solid fa-star text-yellow-500"> </i> 4.5
+                            <p class="lg:text-lg font-[500]">Onion 1 KG</p>
+                            <p class="font-[500]">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center bg-[#FFFFFF] rounded-lg">
+                        <div>
+                            <img class="w-[80px] rounded-3xl p-2" src="assets/onion.PNG" alt="">
+                        </div>
+                        <div class="lg:mx-2">
+                            <i class="fa-solid fa-star text-yellow-500"> </i> 4.5
+                            <p class="lg:text-lg font-[500]">Onion 1 KG</p>
+                            <p class="font-[500]">$39.99</p>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+        </section>
     </main>
 
     <!-- footer section -->
